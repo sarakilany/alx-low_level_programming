@@ -1,5 +1,5 @@
 /*
- * Program to print sizes of data types
+11;rgb:0000/0000/0000* Program to print sizes of data types
  * Author: Sara Kilany
  */
 
@@ -18,5 +18,5 @@ printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
 printf("Size of a float: %lu byte(s)\n", sizeof(float));
 
-return 0;
+ return (0);
 }
