@@ -1,5 +1,5 @@
 /*
-11;rgb:0000/0000/0000* Program to print sizes of data types
+ * Program to print sizes of data types
  * Author: Sara Kilany
  */
 
