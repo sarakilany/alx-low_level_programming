@@ -1,12 +1,13 @@
 /*
- * Program to write puts statement
+ * Program uses puts statement to print
+ * "Progamming is like building a multilingual puzzle
  *
  * Author: Sara Kilany
  */
 
 #include <stdio.h>
 
-/**
+/*
  * main prints "Programming is like building
  *      a multilingual puzzle
  *
