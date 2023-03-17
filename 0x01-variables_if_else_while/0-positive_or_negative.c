@@ -11,7 +11,7 @@
 /**
  * main - prints the type of number randomly generated
  * 
- * Returns: 0 on success
+ * Return: 0 on success
  */
 int main(void)
 {
