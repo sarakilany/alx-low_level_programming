@@ -10,7 +10,7 @@
 
 /**
  * main - prints the type of number randomly generated
- * 
+ *
  * Return: 0 on success
  */
 int main(void)
