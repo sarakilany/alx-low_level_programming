@@ -26,8 +26,8 @@ x++;
 x = 'A';
 while (x <= 'Z')
 {
-putchar(x)
-x++
+putchar(x);
+x++;
 }
 putchar('\n');
 return (0);
