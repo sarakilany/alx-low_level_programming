@@ -19,18 +19,20 @@ int main(void)
 int x, y = 0;
 
 while (y < 10)
-   {
+{
 while (x < 10)
 {
 if (x > y)
 {
 putchar(y + '0');  
 putchar(x + '0');
+if (x != 9 && y != 8)
 putchar(',');
 putchar(' ');
 }
 x++;
 }
+x = 0;
 y++;
 }
 putchar('\n');
