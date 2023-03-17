@@ -16,11 +16,13 @@
 int main(void)
 {
 
+char x ='a';
 
-for (char x ='a' ; x <= 'z'; x++)
+while ( x <= 'z')
 {
 putchar(x);
 putchar('\n');
+x++;
 }
 return (0);
 }
