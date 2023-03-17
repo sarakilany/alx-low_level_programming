@@ -21,10 +21,14 @@ char x = 'a';
 while (x <= 'z')
 {
 putchar(x);
-putchar(x - 32);
-putchar('\n');
 x++;
 }
-
+x = 'A';
+while (x <= 'Z')
+{
+putchar(x)
+x++
+}
+putchar('\n');
 return (0);
 }
