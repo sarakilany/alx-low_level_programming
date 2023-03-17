@@ -1,5 +1,5 @@
 /*
- * A program to print numbers from 0-9 seperated by , 
+ * A program to print numbers from 0-9 seperated by ,
  *
  * Author: Sara Kilany
  */
@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from 0-9 separated by , 
+ * main - prints numbers from 0-9 separated by ,
  *
  * Return: 0 on success
  */
@@ -21,7 +21,7 @@ int x = 0;
 while (x < 10)
 {
 putchar(x + '0');
-if ( x != 9)
+if (x != 9)
 {
 putchar(',');
 putchar(' ');
