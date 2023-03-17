@@ -24,9 +24,9 @@ while (x < 10)
 {
 if (x > y)
 {
-putchar(y + '0');  
+putchar(y + '0');
 putchar(x + '0');
-if (x != 9 && y != 8)
+if (!(x == 9 && y == 8))
 putchar(',');
 putchar(' ');
 }
