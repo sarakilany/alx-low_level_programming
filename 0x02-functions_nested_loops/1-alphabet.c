@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints the alphabet, in lowercase
+ * print_alphabet - prints the alphabet, in lowercase
  * followed by a newline
  *
  * Return: 0 on success
@@ -22,10 +22,4 @@ while (i <= 'z')
 _putchar(i);
 i++;
 }
-}
-int main(void)
-{
-print_alphabet();
-
-return (0);
 }
