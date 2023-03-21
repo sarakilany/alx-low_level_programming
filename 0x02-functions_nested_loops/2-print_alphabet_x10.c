@@ -14,10 +14,11 @@
  *
  * Return: 0 on success
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char i = 'a';
-while ( int j =0; j < 10; j++)
+int j;
+while (j =0; j < 10; j++)
 {
 while (i <= 'z')
 {
