@@ -17,14 +17,15 @@
 void print_alphabet_x10(void)
 {
 char i = 'a';
-int j;
-while (j =0; j < 10; j++)
+int j = 0;
+while (j < 10)
 {
 while (i <= 'z')
 {
 _putchar(i);
 i++;
 }
+j++;
 i = 'a';
 }
 _putchar('\n');
