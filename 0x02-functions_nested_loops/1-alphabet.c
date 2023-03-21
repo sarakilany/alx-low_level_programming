@@ -25,7 +25,7 @@ i++;
 }
 int main(void)
 {
-print_alpahbet();
+print_alphabet();
 
 return (0);
 }
