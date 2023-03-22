@@ -18,11 +18,11 @@ void times_table(void)
 {
 int num = 0, mult = 1, prod;
 
-while(num <= 9)
+while (num <= 9)
 {
 _putchar('0');
 
-while(mult <= 9)
+while (mult <= 9)
 {
 _putchar(',');
 _putchar(' ');
