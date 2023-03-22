@@ -23,7 +23,7 @@ int prod;
 while (i <= 9)
 {
 _putchar('0');
-i++
+i++;
 
 while (j <= 9)
 {
