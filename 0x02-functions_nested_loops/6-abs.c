@@ -18,11 +18,7 @@ int _abs(int n)
 
 int j = n;
 if (j < 0)
-{
-j = j*-1;
-_putchar(j);
-}
-else
-_putchar(j);
+j = j * (-1);
+_putchar(j + '0');
 return (0);
 }
