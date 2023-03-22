@@ -13,7 +13,7 @@
  * @n: input integer
  * Return: the last digit
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
 
 int j = n;
