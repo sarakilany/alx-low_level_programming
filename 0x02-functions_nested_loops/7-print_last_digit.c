@@ -17,8 +17,8 @@ int print_last_digit(int n)
 {
 
 int j = (n >= 0) ? n : -n;
-_putchar(j);
-_putchar(j);
+_putchar(j + '0');
+
 return (j % 10);
 
 }
