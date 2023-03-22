@@ -12,13 +12,13 @@
  * add - adds tow input numbers
  * @n: input integer
  * @m: input integer
- * Return: always 0
+ * Return: sum of n+m
  */
 int add(int n, int m)
 {
 
 int s = n + m;
-_putchar(s + '0');
-return (0);
+
+return (s);
 
 }
