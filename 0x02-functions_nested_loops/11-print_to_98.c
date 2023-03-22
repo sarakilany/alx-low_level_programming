@@ -11,7 +11,6 @@
 /**
  * print_to_98 - print to 98
  * @n: input integer
- * @m: input integer
  * Return: sum of n+m
  */
 void print_to_98(int n)
