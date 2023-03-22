@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _isalpha - checks for sign of input integer
+ * print_sign - checks for sign of input integer
  * @n: input integer
  * Return: 1 if positive, 0 if zero, -1 if negative
  */
@@ -20,7 +20,7 @@ int j = n;
 if (j < 0)
 {
 _putchar('-');
-return (1);
+return (-1);
 }
 else if (j == 0)
 {
@@ -29,7 +29,7 @@ return (0);
 }
 else
 {
-_putchar('-');
-return (-1);
+_putchar('+');
+return (+1);
 }
 }
