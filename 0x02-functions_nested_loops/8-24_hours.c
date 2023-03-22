@@ -16,21 +16,23 @@
  */
 void jack_bauer(void)
 {
-int hour, minute;
+int hours = 0;
+int min = 0;
 
-for (hour = 0; hour < 24; hour++)
+while (hours < 24)
 {
-for (minute = 0; minute < 60; minute++)
+while (min < 60)
 {
-// Print the hour
-if (hour < 10)
-_putchar('0');
-printf("%d:", hour);
-
-// Print the minute
-if (minute < 10)
-_putchar('0');
-printf("%d\n", minute);
+_putchar('0' + (hours / 10));
+_putchar('0' + (hours % 10));
+_putchar(':');
+_putchar('0' + (min / 10));
+_putchar('0' + (min % 10));
+_putchar('\n');
+min++;
+}
+min = 0;
+hours++;
 }
 }
 
