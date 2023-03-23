@@ -14,23 +14,22 @@
  */
 void print_square(int size)
 {
-int i = 0;
-int j;
-if (size <= 0)
-{
-_putchar('\n');
-return;
-}
+int x, y;
 
-while (i < size)
+y = 0;
+
+if (size < 1)
+_putchar('\n');
+
+while (y < size)
 {
-j = 0;
-while (j < size)
+x = 0;
+while (x < size)
 {
 _putchar('#');
-j++;
+x++;
 }
 _putchar('\n');
-i++;
+y++;
 }
 }
