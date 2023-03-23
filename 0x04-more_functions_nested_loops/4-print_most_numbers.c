@@ -15,14 +15,14 @@
  */
 void print_most_numbers(void)
 {
-int i = '0';
-while (i <= '9')
+int number;
+
+for (number = '0'; number <= '9'; number++)
 {
-if (i != '2' && i != '4')
-{
-_putchar(i);
-}
-i++;
+if (number == '2' || number == '4')
+;
+else
+_putchar(number);
 }
 _putchar('\n');
 }
