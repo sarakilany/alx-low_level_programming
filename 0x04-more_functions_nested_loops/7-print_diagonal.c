@@ -14,19 +14,22 @@
  * Return: no return
  */
 void print_diagonal(int n) {
-if (n <= 0) {
+int i = n;
+int j = 0;
+int m;
+if (i <= 0) {
 _putchar('\n');
 return;
 }
-int i = 0;
-while (i < n) {
-int j = 0;
+
+while (j < i) {
+m = 0;
 while (j < i) {
 _putchar(' ');
 j++;
 }
 _putchar('\\');
 _putchar('\n');
-i++;
+m++;
 }
 }
