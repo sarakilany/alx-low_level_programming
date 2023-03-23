@@ -13,23 +13,24 @@
  */
 void print_triangle(int size)
 {
-int i = 1;
-int j;
+int i, j;
+
 if (size <= 0)
 {
 _putchar('\n');
 return;
 }
 
-while (i <= size)
+i = 0;
+while (i < size)
 {
-j = 1;
-while (j <= (i-1))
+j = 0;
+while (j < size - i - 1)
 {
 _putchar(' ');
 j++;
 }
-
+j = 0;
 while (j <= i)
 {
 _putchar('#');
