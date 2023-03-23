@@ -3,7 +3,8 @@
  *
  * Author: Sara Kilany
  */
- 
+
+#include <stdio.h>
 #include "main.h"
 
 /**
