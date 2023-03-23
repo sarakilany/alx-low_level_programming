@@ -3,7 +3,7 @@
  * 10 times followed by a new line.
  * Author: Sara Kilany
  */
- 
+
 #include "main.h"
 
 /**
