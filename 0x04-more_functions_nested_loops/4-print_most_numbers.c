@@ -3,7 +3,7 @@
  * except 2 and 4 followed by a new line.
  * Author: Sara Kilany
  */
- 
+
 #include <stdio.h>
 #include "main.h"
 
@@ -18,7 +18,7 @@ void print_most_numbers(void)
 int number = '0';
 while (number <= '9')
 {
-if (number != '2' || number != '4')
+if (number != '2' && number != '4')
 {
 _putchar(number);
 }
