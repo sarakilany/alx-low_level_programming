@@ -24,7 +24,7 @@ return;
 
 while (j < i) {
 m = 0;
-while (j < i) {
+while (m < j) {
 _putchar(' ');
 j++;
 }
