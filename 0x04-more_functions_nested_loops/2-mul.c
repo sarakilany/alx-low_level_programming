@@ -2,6 +2,7 @@
  * A program to multiply two numbers.
  * Author: Sara Kilany
  */
+
 #include <stdio.h>
 #include "main.h"
 
