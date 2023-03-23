@@ -24,6 +24,12 @@ return;
 while (i <= size)
 {
 j = 1;
+while (j <= (i-1))
+{
+_putchar(' ');
+j++;
+}
+
 while (j <= i)
 {
 _putchar('#');
