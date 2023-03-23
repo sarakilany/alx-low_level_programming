@@ -13,7 +13,7 @@
  *
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
 for (int i = 1; i <= 100; i++)
 {
