@@ -3,7 +3,7 @@
  *
  * Author: Sara Kilany
  */
- 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
@@ -32,7 +32,7 @@ printf("Buzz ");
 }
 else
 {
-printf("%d ", i);
+printf("%d", i);
 }
 i++;
 }
