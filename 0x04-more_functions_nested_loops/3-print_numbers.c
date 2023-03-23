@@ -1,23 +1,21 @@
 /*
- * A program to print the numbers, from 0 to 9,
- * followed by a new line.
+ * A program to print numbers from 0 to9
+ *
  * Author: Sara Kilany
  */
-#include <stdio.h>
+
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers, from 0 to 9,
- * followed by a new line.
+ * print_numbers - print numbers from 0 to 9
  *
- * Return: no return
  */
-void print_numbers(void)
+void print_Numbers(void)
 {
 int i = 0;
 while (i < 10)
 {
-_putchar(i + '0');
+_putchar('0' + i);
 i++;
 }
 _putchar('\n');

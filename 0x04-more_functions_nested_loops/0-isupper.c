@@ -4,6 +4,7 @@
  */
 #include <stdio.h>
 
+#include "main.h"
 /**
  * _isupper - checks for uppercase character.
  * @c: input character
