@@ -16,10 +16,10 @@
 void print_rev(char *s)
 {
 int _len = 0;
-if (*s == '\0')
+if (*s == '')
 {
 _putchar('\n');
-return
+return;
 }
 while (*(s + _len) != '\0')
 _len++;
