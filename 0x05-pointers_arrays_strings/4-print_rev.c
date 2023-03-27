@@ -1,5 +1,5 @@
 /*
-11;rgb:0000/0000/0000* Program to print a string, in reverse
+ * Program to print a string, in reverse
  *
  * Author: Sara Kilany
  */
