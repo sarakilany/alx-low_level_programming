@@ -8,10 +8,9 @@
 #include <stdio.h>
 
 /**
- *
  * _strlen - returns the length of a string
  * @s: input pointer to a string
- * Return: length of string *s
+ * Return: length of string
  */
 int _strlen(char *s)
 {
