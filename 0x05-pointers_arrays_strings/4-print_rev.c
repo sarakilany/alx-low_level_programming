@@ -16,7 +16,7 @@
 void print_rev(char *s)
 {
 int _len = 0;
-if (*s == '')
+if (*s == '\0')
 {
 _putchar('\n');
 return;
