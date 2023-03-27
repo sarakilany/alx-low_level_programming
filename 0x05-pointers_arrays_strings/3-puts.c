@@ -20,6 +20,6 @@ void _puts(char *str)
 int _len = 0;
 while (*(str + _len) != '\0')
 {
-_putchar(*(str + _len);
+  _putchar(*(str + _len));
 }
 }
