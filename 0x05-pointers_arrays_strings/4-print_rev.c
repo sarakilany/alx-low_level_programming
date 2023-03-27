@@ -1,5 +1,5 @@
 /*
- * Program to print a string, in reverse
+11;rgb:0000/0000/0000* Program to print a string, in reverse
  *
  * Author: Sara Kilany
  */
@@ -16,6 +16,11 @@
 void print_rev(char *s)
 {
 int _len = 0;
+if (*s == '\0')
+{
+_putchar('\n');
+return
+}
 while (*(s + _len) != '\0')
 _len++;
 _len--;
