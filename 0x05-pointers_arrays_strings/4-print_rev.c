@@ -19,5 +19,9 @@ int _len = 0;
 while (*(s+ _len) != '\0')
 _len++;
 while (_len >= 0)
+{
 _putchar(*(s + _len));
+_len--;
+}
+_putchar('\n');
 }
