@@ -23,4 +23,5 @@ while (*(str + _len) != '\0')
 _putchar(*(str + _len));
 _len++;
 }
+_putchar('\n');
 }
