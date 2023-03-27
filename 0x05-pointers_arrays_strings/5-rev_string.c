@@ -1,5 +1,5 @@
 /*
- *
+ * Program to reverse a string
  *
  * Author: Sara Kilany
  */
@@ -22,9 +22,9 @@ while (*(s + _len) != '\0')
 _len++;
 while (counter <= _len/2)
 {
-temp = *(s + counter);
-*(s + counter) = *(s + _len);
-*(s + _len) = temp;
+temp = s[counter];
+s[counter] = s[_len];
+s[_len] = temp;
 _len--;
 counter++;
 }
