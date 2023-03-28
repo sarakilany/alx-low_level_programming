@@ -14,7 +14,7 @@
  */
 void puts2(char *str)
 {
-s_len = strlen(s);
+int s_len = strlen(s);
 int _len = 0;
 while ( _len <= s_len)
 {
