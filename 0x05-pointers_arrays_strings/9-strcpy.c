@@ -1,5 +1,5 @@
 /*
- *
+ * Porgram that copies the string pointer from src to dest
  *
  * Author: Sara Kilany
  */
@@ -8,8 +8,15 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
- * Return:
+ * strcpy - copies the string pointer from src to dest
+ * @dest: destination pointer
+ * @src: source pointer
+ * Return: pointer
  */
+char *strcpy(char *dest, char *src)
+{
+while (*src)
+*dest++ = *src++;
+*dest = '\0';
+return dest;
+}
