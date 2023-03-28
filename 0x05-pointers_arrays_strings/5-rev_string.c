@@ -16,13 +16,12 @@
 void rev_string(char *s)
 {
 int len = strlen(s);
-char *p1 = s;
-char *p2 = s + len - 1;
-while (p1 < p2)
+int i = 0;
+while (i < len / 2)
 {
-char temp = *p1;
-*p1 = *p2;
-*p2 = temp;
-p1++;
-p2--;
+char tmp = s[i];
+s[i] = s[len - i - 1];
+s[len - i - 1] = tmp;
+i++;
+}
 }
