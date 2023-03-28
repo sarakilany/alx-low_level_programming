@@ -16,29 +16,11 @@
 void print_array(int *a, int n)
 {
 int i = 0;
-while (i < n)
+while (i < n - 1)
 {
-int num = a[i];
-int digits = 1;
-while (num / 10 != 0)
-{
-digits++;
-num /= 10;
-}
-num = a[i];
-while (digits > 0)
-{
-int digit = num % 10;
-_putchar(digit + '0');
-digits--;
-num /= 10;
-}
-if (i < n - 1)
-{
-_putchar(',');
-_putchar(' ');
-}
+printf("%d, ", a[i]);
 i++;
 }
-_putchar('\n');
+printf("%d", a[i]);
+printf('\n');
 }
