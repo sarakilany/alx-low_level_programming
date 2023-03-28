@@ -15,9 +15,9 @@
  */
 void puts2(char *str)
 {
-int s_len = strlen(str);
+int s_len = strlen(str) + 1;
 int _len = 0;
-while ( _len <= s_len)
+while (_len <= s_len)
 {
 _putchar(*(str + _len));
 _len += 2;
