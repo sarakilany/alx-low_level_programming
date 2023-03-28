@@ -22,5 +22,5 @@ while (_len <= s_len)
 _putchar(*(str + _len));
 _len += 2;
 }
-printf("\n");
+_putchar('\n');
 }
