@@ -8,15 +8,15 @@
 #include <stdio.h>
 
 /**
- *
  * puts2 - prints every other character of a string
  * @str: input string pointer
  * Return: No return
  */
 void puts2(char *str)
 {
+s_len = strlen(s);
 int _len = 0;
-while (*(str + _len) != '\0')
+while ( _len <= s_len)
 {
 _putchar(*(str + _len));
 _len += 2;
