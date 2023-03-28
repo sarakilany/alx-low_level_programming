@@ -15,17 +15,14 @@
  */
 void rev_string(char *s)
 {
-int _len = 0;
-int counter = 0;
-char temp;
-while (*(s + _len) != '\0')
-_len++;
-while (counter <= _len/2)
+int len = strlen(s);
+char *p1 = s;
+char *p2 = s + len - 1;
+while (p1 < p2)
 {
-temp = s[counter];
-s[counter] = s[_len];
-s[_len] = temp;
-_len--;
-counter++;
-}
+char temp = *p1;
+*p1 = *p2;
+*p2 = temp;
+p1++;
+p2--;
 }
