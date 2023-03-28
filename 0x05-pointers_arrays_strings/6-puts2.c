@@ -15,11 +15,11 @@
  */
 void puts2(char *str)
 {
-
+int _len = 0;
 while (*str != '\0')
 {
-_putchar(*str);
-str += 2;
+_putchar(*(str + _len));
+_len += 2;
 }
 printf("\n");
 }
