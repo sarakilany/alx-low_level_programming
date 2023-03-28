@@ -13,10 +13,10 @@
  * @src: source pointer
  * Return: pointer
  */
-char *strcpy(char *dest, char *src)
+char *strcpy(char *dest, const char *src)
 {
 while (*src)
 *dest++ = *src++;
 *dest = '\0';
-return dest;
+return (dest);
 }
