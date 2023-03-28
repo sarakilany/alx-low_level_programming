@@ -17,13 +17,13 @@ void puts_half(char *str)
 {
 int len = strlen(str);
 int i;
-int start = len / 2;
+int start = 1 + (len / 2);
 if (len % 2 != 0)
 {
 start = (len - 1) / 2;
 }
 i = start;
-while (i <= len)
+while (i < len)
 {
 _putchar(str[i]);
 i++;
