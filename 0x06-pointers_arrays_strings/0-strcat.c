@@ -17,7 +17,6 @@
 char *_strcat(char *dest, char *src)
 {
 char *p = dest;
-char *q = p;
 int _len = strlen(dest);
 p = p + _len;
 while (*src)
@@ -27,5 +26,5 @@ src++;
 p++;
 }
 *p = '\0';
-return q;
+return dest;
 }
