@@ -22,14 +22,14 @@ char *p = dest;
 int _len = strlen(src);
 int i = 0;
 p = p + strlen(dest);
-while (i <= n)
+while (i < n)
 {
 *p = *src;
 src++;
 p++;
 i++;
 }
-if (n < _len)
+if (n <= _len)
 *p = '\0';
 return (dest);
 }
