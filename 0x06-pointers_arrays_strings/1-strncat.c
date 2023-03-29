@@ -27,6 +27,7 @@ while (i < n)
 *p = *src;
 src++;
 p++;
+i++;
 }
 if (n < _len)
 *p = '\0';
