@@ -20,12 +20,11 @@ char *p = dest;
 char *q = p;
 int _len = strlen(dest);
 p = p + _len;
-while(*src)
+while (*src)
 {
 *p = *src;
 src++;
 p++;
-
 }
 *p = '\0';
 return q;
