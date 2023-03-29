@@ -9,7 +9,7 @@
 
 /**
  * reverse_array - reverses content of an integer array
- * @a: pointer to array of ints
+ * @*a: pointer to array of ints
  * @n: number of array elements
  * Return: No return
  */
