@@ -25,5 +25,5 @@ if (*c >= 'a' && *c <= 'z')
 }
 c++;
 }
-return (p);  
+return (p);
 }
