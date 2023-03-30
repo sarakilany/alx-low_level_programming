@@ -1,5 +1,6 @@
 /*
- * Program that copies up to n characters of a string
+ * Program that copies up to n characters
+ * of a string
  *
  * Author: Sara Kilany
  */
@@ -8,7 +9,8 @@
 #include <stdio.h>
 
 /**
- * _strncpy - copies up to n characters of a string
+ * _strncpy - copies up to n characters
+ * of a string
  * @dest: destination pointer to a string
  * @src: source pointer string
  * @n: number of character to append to dest
