@@ -24,6 +24,6 @@ else
 x++;
 }
 if (*x == '\0')
-return NULL;
+return (NULL);
 return (x);
 }
