@@ -15,23 +15,23 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int len = 0;
-int found = 0;
-char *a = accept;
-while (*s && !found)
+unsigned int i = 0;
+while (s[i] != '\0')
 {
-found = 1;
-while (*a && !found)
+unsigned int j = 0;
+while (accept[j] != '\0')
 {
-if (*s == *a)
+if (s[i] == accept[j])
 {
-len++;
-found = 0;
 break;
 }
-a++;
+j++;
 }
-s++;
+if (accept[j] == '\0')
+{
+return i;
 }
-return (len);
+i++;
+}
+return i;
 }
