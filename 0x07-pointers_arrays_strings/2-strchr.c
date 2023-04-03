@@ -23,7 +23,7 @@ break;
 else
 x++;
 }
-if (*x == '\0')
+if (*x == '\0' && c !== '\0')
 return (NULL);
 return (x);
 }
