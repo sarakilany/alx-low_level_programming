@@ -21,7 +21,7 @@ char *a = accept;
 while (*s && !found)
 {
 found = 1;
-while (*a)
+while (*a && !found)
 {
 if (*s == *a)
 {
