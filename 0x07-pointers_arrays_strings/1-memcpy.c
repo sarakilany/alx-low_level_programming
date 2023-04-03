@@ -1,5 +1,5 @@
 /*
- * Program that copies memory area.
+ * Program that copies n from memory area to dest.
  *
  * Author: Sara Kilany
  */
@@ -8,10 +8,10 @@
 #include <stdio.h>
 
 /**
- * _memset - copies memory area.
- * @s: pointer to memory area
- * @b: the byte to fill with
- * @n: number of memory bytes to fill
+ * _memcpy - copies n from memory area to dest.
+ * @dest: pointer to memory area destination
+ * @src: the source memory area to fill with
+ * @n: number of memory bytes to fill from src
  * Return: pointer to a string
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
