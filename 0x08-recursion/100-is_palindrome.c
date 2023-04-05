@@ -21,6 +21,6 @@ int length = strlen(s);
 if (length == 0)
 return 1;
 if (s[0] == s[length - 1])
-return is_palindrome(s + 1, length - 2);
+return is_palindrome(s + 1);
 return 0;
 }
