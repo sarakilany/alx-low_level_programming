@@ -1,5 +1,5 @@
 /*
- * A program that returns 1 if a string is a palindrome
+0;276;0c * A program that returns 1 if a string is a palindrome
  * and 0 if not.
  *
  * Author: Sara Kilany
@@ -19,8 +19,8 @@ int is_palindrome(char *s)
 {
 int length = strlen(s);
 if (length == 0)
-return 1;
-if (s[0] == s[length - 1])
-return is_palindrome(s + 1);
-return 0;
+return (1);
+if (s[0] == s[length])
+return (is_palindrome(s + 1));
+return (0);
 }
