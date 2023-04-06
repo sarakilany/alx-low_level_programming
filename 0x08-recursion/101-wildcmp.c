@@ -1,5 +1,5 @@
 /*
- * A program that compares two strings and returns 1 
+ * A program that compares two strings and returns 1
  * if the strings can be considered identical, 0 otherwise
  *
  * Author: Sara Kilany
