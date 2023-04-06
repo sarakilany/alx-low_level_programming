@@ -27,7 +27,7 @@ return (n);
 else
 {
 root = _sqrt_recursion(n - 1);
-if ((root * root) == n)
+if ((root**2) == n)
 {
 return (root);
 }
