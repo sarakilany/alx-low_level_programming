@@ -11,7 +11,7 @@
 /**
  * is_prime_helper - checks ifnumber is divisble by divisor
  * @n: number to check for primality
- * @division: number to divide by
+ * @divisor: number to divide by
  * Return: 1 if number is divisble by divisor, 0 otherwise
  */
 
