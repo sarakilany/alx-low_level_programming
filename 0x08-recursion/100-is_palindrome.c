@@ -1,5 +1,5 @@
 /*
-0;276;0c * A program that returns 1 if a string is a palindrome
+ * A program that returns 1 if a string is a palindrome
  * and 0 if not.
  *
  * Author: Sara Kilany
@@ -23,7 +23,7 @@ return (1 + _strlen_recursion(s + 1));
 }
 
 /**
- * is_palindrome_helper - check if characters at start and end 
+ * is_palindrome_helper - check if characters at start and end
  * are the same
  * @s: pointer to a string
  * @start: starting point to check from string s
