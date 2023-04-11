@@ -12,12 +12,12 @@
  * create_array - creates an array of chars
  *  and initializes it with a specific char.
  * @size: array size
- * @c : character to initialize array with
- * Return:
+ * @c: character to initialize array with
+ * Return: array or NULL
  */
 char *create_array(unsigned int size, char c)
 {
-char *array = (char *) malloc(size *sizeof(char));
+char *array = (char * ) malloc(size *sizeof(char));
 unsigned int i;
 
 if (size == 0)
