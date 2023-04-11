@@ -23,12 +23,14 @@ char *new_str = (char *) malloc((length + 1) * sizeof(char));
 int i = 0;
 if (str == NULL)
 {
+printf("failed to allocate memory\n");
 return (NULL);
 }
 
 
 if (new_str == NULL)
 {
+printf("failed to allocate memory\n");
 return (NULL);
 }
 
