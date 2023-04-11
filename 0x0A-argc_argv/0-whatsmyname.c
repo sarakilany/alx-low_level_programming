@@ -9,7 +9,7 @@
 
 /**
  * main - prints program's name, followed by a new line.
- * @argc: length of command line arguments 
+ * @argc: length of command line arguments
  * @argv: pointer tocommand line array arguments
  * Return: 0 on success
  */
