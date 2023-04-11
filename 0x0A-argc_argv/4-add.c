@@ -15,11 +15,11 @@
  * Return: 0 on success
  */
 int main(int argc, char *argv[])
+{
 int sum = 0;
 int i = 1;
 int j;
 int num;
-{
 if (argc == 1)
 {
 printf("0\n");
