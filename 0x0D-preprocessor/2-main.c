@@ -9,7 +9,8 @@
  * followed by a new line.
  * Return: No return
  */
-void main(void)
+int main(void)
 {
 printf("%s\n", __FILE__);
+return (0);
 }
