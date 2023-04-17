@@ -4,7 +4,7 @@
  * Author: Sara Kilany
  */
 
-#include "main.h"
+#include "dog.h"
 #include <stdio.h>
 
 /**
