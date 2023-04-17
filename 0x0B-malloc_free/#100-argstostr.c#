@@ -1,0 +1,16 @@
+/*
+ * A program that concatenates all the arguments of your program.
+ *
+ * Author: Sara Kilany
+ */
+
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/**
+ * argstostr - concatenates all the arguments of your program.
+ * @ac: cli arguments length
+ * @av: pointer to cli argument array
+ * Return:
+ */
