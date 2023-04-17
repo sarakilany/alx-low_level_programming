@@ -16,14 +16,27 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-dog_t *newdog;
-
-if (*name && age && *owner)
+if (newdog == NULL)
 {
-newdog->name = *name;
-new->age = age;
-newdog->owner = *owner;
-return (newdog);
-}
 return (NULL);
+}
+
+
+newdog->name = (char *) malloc(strlen(name) + 1);
+if (newdog->name == NULL)
+{
+return (NULL);
+}
+strcpy(newdog->name, name);
+
+newdog->owner = (char *) malloc(strlen(owner) + 1);
+if (newdog->owner == NULL)
+{
+
+
+return (NULL);
+}
+strcpy(newdog->owner, owner);
+newdog->age = age;
+return (newdog);
 }
